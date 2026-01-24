@@ -1,0 +1,12 @@
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="nav-logo">Bill DeLisle</a>
+
+    <ul class="nav-links">
+      <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' or page.url == '/about.html' %}class="active"{% endif %}>About Me</a></li>
+      <li><a href="{{ '/services' | relative_url }}" {% if page.url == '/services/' or page.url == '/services.html' %}class="active"{% endif %}>Services</a></li>
+      <li><a href="{{ '/blog' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
+      <li><a href="{{ '/contact' | relative_url }}" {% if page.url == '/contact/' or page.url == '/contact.html' %}class="active"{% endif %}>Contact</a></li>
+    </ul>
+  </div>
+</nav>
