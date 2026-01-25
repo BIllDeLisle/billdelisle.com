@@ -204,6 +204,10 @@ img { max-width: 100%; height: auto; }
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow-sm);
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .testimonial-card-content { display: none; }
