@@ -135,7 +135,7 @@ img { max-width: 100%; height: auto; }
 
 /* Hero Section */
 .hero {
-  padding: 160px 0 80px;
+  padding: 160px 0 40px;
   text-align: center;
 }
 
@@ -179,7 +179,7 @@ img { max-width: 100%; height: auto; }
 
 /* Testimonials Section */
 .testimonials {
-  padding: 60px 0 80px;
+  padding: 30px 0 80px;
   background: var(--color-bg);
 }
 
@@ -691,7 +691,7 @@ img { max-width: 100%; height: auto; }
 
 /* Page Headers */
 .page-header {
-  padding: 160px 0 80px;
+  padding: 160px 0 40px;
   text-align: center;
   background: var(--color-bg-alt);
 }
