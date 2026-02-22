@@ -1,0 +1,42 @@
+# Site settings
+title: Bill DeLisle
+tagline: Content Strategist & Brand Storyteller
+description: "Freelance writer specializing in B2B & B2C content strategy and brand storytelling"
+url: "https://billdelisle.com"
+baseurl: ""
+email: Bill@BillDeLisle.com
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Sass settings
+sass:
+  style: compressed
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - DEPLOYMENT.md
+  - node_modules
+  - vendor
