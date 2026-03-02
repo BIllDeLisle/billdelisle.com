@@ -17,10 +17,3 @@ In the coming posts, I'll be exploring topics like:
 - **Writing Craft**: Tips and techniques for clearer, more compelling copy
 - **Industry Insights**: Trends and observations from the world of B2B and B2C marketing
 
-## Why I'm Starting This Blog
-
-After years of helping brands tell their stories, I've learned that the best content comes from genuine expertise shared generously. Whether you're a marketing leader, a founder building your brand, or a fellow content creator, I hope you'll find something valuable here.
-
-Stay tuned for more, and feel free to [reach out](/contact) if there's a topic you'd like me to cover.
-
-— Bill
