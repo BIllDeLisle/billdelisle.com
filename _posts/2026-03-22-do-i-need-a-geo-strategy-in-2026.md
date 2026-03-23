@@ -7,6 +7,12 @@ read_time: 8
 ---
 
 <style>
+  .post-cover-image {
+    width: 100%;
+    border-radius: 12px;
+    margin: 0 0 36px;
+    display: block;
+  }
   .geo-definition {
     border-left: 4px solid #0d7377;
     background: #e8f4f4;
@@ -87,9 +93,11 @@ read_time: 8
   @media (max-width: 380px) { .geo-pillars-grid { grid-template-columns: 1fr; } }
 </style>
 
-<p class="post-byline">By <strong>Bill DeLisle</strong>, Freelance Strategic Content Creator &amp; Brand Storyteller</p>
+<img src="/assets/images/geo-strategy-cover.jpg" alt="AI search tools on a laptop" class="post-cover-image">
 
-For decades, Google has been the uncontested front page of the internet. **16.4 billion searches are performed every day**, and landing on the first page, ranking among the ten blue links, is what every brand wants (and needs!) to remain relevant online. If you don't make the cut, internet obsolescence starts to feel inevitable.
+<p class="post-byline">By <strong><a href="https://billdelisle.com">Bill DeLisle</a></strong>, Freelance Strategic Content Creator &amp; Brand Storyteller</p>
+
+For decades, Google has been the uncontested front page of the internet. **[16.4 billion searches are performed every day](https://explodingtopics.com/blog/google-searches-per-day)**, and landing on the first page, ranking among the ten blue links, is what every brand wants (and needs!) to remain relevant online. If you don't make the cut, internet obsolescence starts to feel inevitable.
 
 Now, the nature of search is undergoing a seismic shift as AI changes how people search and find information online.
 
@@ -153,9 +161,9 @@ With SEO, the prize is a high ranking on a results page, where users will hopefu
   </table>
 </div>
 
-These mentions are very valuable, and the stakes are enormous.
+These mentions are *very* valuable, and the stakes are enormous.
 
-According to **McKinsey &amp; Company**, 50% of consumers use AI-powered search, with "the majority of users saying it's the top digital source they use to make buying decisions." McKinsey estimates that $750B in US revenue will be impacted by AI-powered search by 2028.
+According to **[McKinsey & Company](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search)**, 50% of consumers use AI-powered search, with "the majority of users saying it's the top digital source they use to make buying decisions." McKinsey estimates that $750B in US revenue will be impacted by AI-powered search by 2028.
 
 As a result, McKinsey estimates, brands can expect a 20–50% decline in traffic from traditional search channels, making their appearance in AI-generated responses a business imperative.
 
@@ -190,13 +198,7 @@ SEO practices are often a framework for content that few need and almost no one 
 
 GEO is different.
 
-The same AI models that are now answering your customers' questions are also the ones evaluating which sources are worth citing, and they reward what good content has always been about.
-
-- **Authority.**
-- **Depth and comprehensiveness.**
-- **Factual accuracy.**
-- **Original insights.**
-- **Deep research.**
+The same AI models that are now answering your customers' questions are also the ones evaluating which sources are worth citing, and they reward what good content has always been about. It values authority, original insights, depth, research, and factual accuracy.
 
 For brands and content professionals who have always cared about quality, this is genuinely good news.
 
@@ -204,9 +206,32 @@ The other good news: GEO is still in its infancy. The window for early-mover adv
 
 ## Four Pillars of a GEO Strategy
 
-You don't have to master the entirety of GEO strategy to make a meaningful impact on your AI presence. In fact, anyone telling you they've "figured it out" is probably overly confident or exaggerating their expertise.
+You don't have to master the entirety of GEO strategy to improve your AI presence. In fact, anyone telling you they've "figured it out" is probably overly confident or exaggerating their expertise.
 
-The topic and technology are still too nascent and constantly changing for anyone to have written the definitive rulebook just yet. To get started, here are four pillars of an effective GEO strategy that you and your content partners can get started on right now.
+The topic and technology are still too new and fast-moving for anyone to have written the definitive rulebook just yet. To get started, here are four pillars of an effective GEO strategy that you and your content partners can get started on right now.
+
+<div class="geo-pillars-grid">
+  <div class="geo-pillar-card">
+    <div class="geo-pillar-num">01</div>
+    <div class="geo-pillar-name">Content Strategy</div>
+    <div class="geo-pillar-desc">Authoritative content in the places AI models draw from</div>
+  </div>
+  <div class="geo-pillar-card">
+    <div class="geo-pillar-num">02</div>
+    <div class="geo-pillar-name">Content Structure</div>
+    <div class="geo-pillar-desc">Clear headings, front-loaded answers, specific sourcing</div>
+  </div>
+  <div class="geo-pillar-card">
+    <div class="geo-pillar-num">03</div>
+    <div class="geo-pillar-name">Brand Presence</div>
+    <div class="geo-pillar-desc">E-E-A-T signals across platforms AI models trust</div>
+  </div>
+  <div class="geo-pillar-card">
+    <div class="geo-pillar-num">04</div>
+    <div class="geo-pillar-name">Consistent Messaging</div>
+    <div class="geo-pillar-desc">Uniform language across every customer-facing platform</div>
+  </div>
+</div>
 
 ### #1 Content Strategy
 
@@ -237,14 +262,14 @@ Practically, this means ensuring your content includes:
 
 ### #3 Brand Presence
 
-In 2014, **Google introduced E-E-A-T** (Experience, Expertise, Authority, and Trust) as a framework for discoverable content on its platform. AI models rely on the same signals to surface the best information.
+In 2014, **[Google introduced E-E-A-T](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)** (Experience, Expertise, Authority, and Trust) as a framework for discoverable content on its platform. AI models rely on the same signals to surface the best information.
 
 These signals help AI models determine which sources are credible enough to cite, shaping which brands appear in answers and which ones disappear from consideration.
 
 - For executives and individual thought leaders, this means maintaining an active and substantive LinkedIn presence, publishing newsletters, and contributing opinion pieces that demonstrate genuine domain expertise.
 - For companies, it means securing mentions in the publications and platforms within your field that AI models treat as authoritative.
 
-The underlying principle is the same whether you're a solo practitioner or an enterprise brand: AI models cite sources they've been trained to trust. Building that trust requires showing up consistently in credible places over time.
+The underlying principle is the same whether you're a solo practitioner or an enterprise brand: AI models cite sources they've been trained to trust. That kind of trust doesn't happen overnight, and it doesn't happen by accident.
 
 ### #4 Consistent Messaging
 
@@ -254,30 +279,7 @@ If your website describes your company one way, your LinkedIn bio describes it a
 
 To test your brand's message consistency, search your company name across your five most active platforms and read the first sentence of each profile or bio. If they don't tell the same story, an AI model is going to have trouble deciding which version to trust.
 
-Consistent naming, consistent titles, and consistent language form the foundation of a GEO strategy. Without them, the content investments in the other three pillars will be significantly less effective.
-
-<div class="geo-pillars-grid">
-  <div class="geo-pillar-card">
-    <div class="geo-pillar-num">01</div>
-    <div class="geo-pillar-name">Content Strategy</div>
-    <div class="geo-pillar-desc">Authoritative content in the places AI models draw from</div>
-  </div>
-  <div class="geo-pillar-card">
-    <div class="geo-pillar-num">02</div>
-    <div class="geo-pillar-name">Content Structure</div>
-    <div class="geo-pillar-desc">Clear headings, front-loaded answers, specific sourcing</div>
-  </div>
-  <div class="geo-pillar-card">
-    <div class="geo-pillar-num">03</div>
-    <div class="geo-pillar-name">Brand Presence</div>
-    <div class="geo-pillar-desc">E-E-A-T signals across platforms AI models trust</div>
-  </div>
-  <div class="geo-pillar-card">
-    <div class="geo-pillar-num">04</div>
-    <div class="geo-pillar-name">Consistent Messaging</div>
-    <div class="geo-pillar-desc">Uniform language across every customer-facing platform</div>
-  </div>
-</div>
+Consistent naming, consistent titles, and consistent language around the foundation of a GEO strategy. Without them, the content investments in the other three pillars will be significantly less effective.
 
 ## Start Your Strategy Now
 
@@ -297,5 +299,5 @@ If your team is thinking seriously about GEO — or just trying to get your head
 
 <div class="post-author-bio">
   <h3>About Bill DeLisle</h3>
-  <p><strong>Bill DeLisle</strong> is a freelance strategic content creator and brand storyteller helping individuals and companies translate expertise into authoritative, high-impact content. He specializes in thought leadership, editorial strategy, and narrative development for executives, agencies, and brands across a range of industries, working as an extension of in-house and agency teams to deliver content that builds credibility and drives results.</p>
+  <p><a href="https://billdelisle.com/"><strong>Bill DeLisle</strong></a> is a freelance strategic content creator and brand storyteller helping individuals and companies translate expertise into authoritative, high-impact content. He specializes in thought leadership, editorial strategy, and narrative development for executives, agencies, and brands across a range of industries, working as an extension of in-house and agency teams to deliver content that builds credibility and drives results.</p>
 </div>
