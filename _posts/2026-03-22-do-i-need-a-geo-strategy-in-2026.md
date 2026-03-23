@@ -4,6 +4,7 @@ title: "Do I Need a GEO Strategy in 2026?"
 date: 2026-03-22
 category: "Content Strategy"
 read_time: 8
+image: /assets/images/geo-strategy-cover.jpg
 ---
 
 <style>
@@ -50,8 +51,8 @@ read_time: 8
   }
   .post-author-bio {
     border-top: 1px solid #e8e7e5;
-    margin-top: 60px;
-    padding-top: 36px;
+    margin-top: 20px;
+    padding-top: 28px;
   }
   .post-author-bio h3 {
     font-size: 1.1rem;
@@ -285,7 +286,7 @@ Consistent naming, consistent titles, and consistent language around the foundat
 
 Online discovery is how brands get found, considered, and chosen. The playbook for achieving these outcomes is changing.
 
-Now, brands need to account for SEO and GEO to compete for their audience's attention.
+Now, brands need to account for SEO and GEO to compete for dtheir audience's attention.
 
 Fortunately, the fundamentals are familiar.
 
@@ -295,7 +296,7 @@ Most brands already have the ingredients for a strong GEO presence.
 
 What they often need is a partner who understands content strategy and who can translate expertise and brand messaging into authoritative, well-structured, highly valuable content that AI models recognize as worth citing.
 
-If your team is thinking seriously about GEO — or just trying to get your head around the subject — [let's talk!](/contact)
+If your team is thinking seriously about GEO — Or just trying to get your head around the subject — [let's talk!](/contact)
 
 <div class="post-author-bio">
   <h3>About Bill DeLisle</h3>
