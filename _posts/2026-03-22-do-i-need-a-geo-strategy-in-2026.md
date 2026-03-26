@@ -286,7 +286,7 @@ Consistent naming, consistent titles, and consistent language around the foundat
 
 Online discovery is how brands get found, considered, and chosen. The playbook for achieving these outcomes is changing.
 
-Now, brands need to account for SEO and GEO to compete for dtheir audience's attention.
+Now, brands need to account for SEO and GEO to compete for their audience's attention.
 
 Fortunately, the fundamentals are familiar.
 
