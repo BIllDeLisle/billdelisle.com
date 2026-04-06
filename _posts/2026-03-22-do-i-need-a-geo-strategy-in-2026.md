@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Do I Need a GEO Strategy in 2026?"
+title: "Do I Need an AI Search Strategy in 2026?"
 date: 2026-03-22
 category: "Content Strategy"
 read_time: 8
@@ -209,9 +209,7 @@ As a result, McKinsey estimates, brands can expect a 20â50% decline in traf
   </div>
 </div>
 
-## Why Quality Content Finally Wins
-
-Here is the good news, and there is a lot of it.
+## Was My SEO Investment a Waste of Time and Money?
 
 Your SEO investments are not a waste of time and money. Search engines still play a prominent role in the consumer experience, and they will for a long time.
 
