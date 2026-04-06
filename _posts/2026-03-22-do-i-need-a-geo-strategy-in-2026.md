@@ -123,7 +123,7 @@ image: /assets/images/geo-strategy-cover.jpg
 
 <div class="tldr">
   <div class="tldr-label">TL;DR</div>
-  <p>SEO gets you ranked on Google. GEO gets you cited by ChatGPT. Nobody has this fully figured out yet, but here are four places to start.</p>
+  <p>You don't need a perfect GEO strategy. You need a clear brand story, authoritative content in the right places, and consistent messaging across platforms. Here's what that looks like and why it matters right now.</p>
 </div>
 
 For decades, Google has been the uncontested front page of the internet. **[16.4 billion searches are performed every day](https://explodingtopics.com/blog/google-searches-per-day)**, and landing on the first page, ranking among the ten blue links, is what every brand wants (and needs!) to remain relevant online. If you don't make the cut, internet obsolescence starts to feel inevitable.
