@@ -84,6 +84,29 @@ image: /assets/images/geo-strategy-cover.jpg
   .stat-source { font-size: 12px; color: #a0aec0; }
   @media (max-width: 460px) { .stat-grid { grid-template-columns: 1fr; } }
 
+    /* TL;DR */
+  .tldr {
+    border-left: 4px solid #0d7377;
+    padding: 18px 24px;
+    margin: 0 0 36px;
+    background: #f5f4f2;
+    border-radius: 0 8px 8px 0;
+  }
+  .tldr-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #0d7377;
+    margin-bottom: 6px;
+  }
+  .tldr p {
+    font-size: 1rem;
+    color: #2d3748;
+    line-height: 1.6;
+    margin: 0 !important;
+  }
+
   /* Four pillars */
   .geo-pillars-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; width: 100%; margin: 32px 0; }
   .geo-pillar-card { border: 1px solid #e5e5e5; border-radius: 12px; padding: 24px 18px 20px; display: flex; flex-direction: column; gap: 8px; background: #fff; }
@@ -97,6 +120,11 @@ image: /assets/images/geo-strategy-cover.jpg
 <img src="/assets/images/geo-strategy-cover.jpg" alt="AI search tools on a laptop" class="post-cover-image">
 
 <p class="post-byline">By <strong><a href="https://billdelisle.com">Bill DeLisle</a></strong>, Freelance Strategic Content Creator &amp; Brand Storyteller</p>
+
+<div class="tldr">
+  <div class="tldr-label">TL;DR</div>
+  <p>SEO gets you ranked on Google. GEO gets you cited by ChatGPT. Nobody has this fully figured out yet, but here are four places to start.</p>
+</div>
 
 For decades, Google has been the uncontested front page of the internet. **[16.4 billion searches are performed every day](https://explodingtopics.com/blog/google-searches-per-day)**, and landing on the first page, ranking among the ten blue links, is what every brand wants (and needs!) to remain relevant online. If you don't make the cut, internet obsolescence starts to feel inevitable.
 
@@ -150,8 +178,8 @@ With SEO, the prize is a high ranking on a results page, where users will hopefu
       </tr>
       <tr>
         <td class="col-label">Where audience lands</td>
-        <td class="col-seo">Your website — after clicking a link</td>
-        <td class="col-geo">Your brand — embedded in the AI's answer</td>
+        <td class="col-seo">Your website â after clicking a link</td>
+        <td class="col-geo">Your brand â embedded in the AI's answer</td>
       </tr>
       <tr>
         <td class="col-label">Content focus</td>
@@ -166,7 +194,7 @@ These mentions are *very* valuable, and the stakes are enormous.
 
 According to **[McKinsey & Company](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/new-front-door-to-the-internet-winning-in-the-age-of-ai-search)**, 50% of consumers use AI-powered search, with "the majority of users saying it's the top digital source they use to make buying decisions." McKinsey estimates that $750B in US revenue will be impacted by AI-powered search by 2028.
 
-As a result, McKinsey estimates, brands can expect a 20–50% decline in traffic from traditional search channels, making their appearance in AI-generated responses a business imperative.
+As a result, McKinsey estimates, brands can expect a 20â50% decline in traffic from traditional search channels, making their appearance in AI-generated responses a business imperative.
 
 <div class="stat-grid">
   <div class="stat-card">
@@ -296,7 +324,7 @@ Most brands already have the ingredients for a strong GEO presence.
 
 What they often need is a partner who understands content strategy and who can translate expertise and brand messaging into authoritative, well-structured, highly valuable content that AI models recognize as worth citing.
 
-If your team is thinking seriously about GEO — Or just trying to get your head around the subject — [let's talk!](/contact)
+If your team is thinking seriously about GEO â Or just trying to get your head around the subject â [let's talk!](/contact)
 
 <div class="post-author-bio">
   <h3>About Bill DeLisle</h3>
