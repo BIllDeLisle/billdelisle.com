@@ -322,9 +322,9 @@ Most brands already have the ingredients for a strong GEO presence.
 
 What they often need is a partner who understands content strategy and who can translate expertise and brand messaging into authoritative, well-structured, highly valuable content that AI models recognize as worth citing.
 
-If your team is thinking seriously about GEO â Or just trying to get your head around the subject â [let's talk!](/contact)
+If your team is thinking seriously about GEO or just trying to get your head around the subject,[let's talk!](/contact)
 
 <div class="post-author-bio">
   <h3>About Bill DeLisle</h3>
-  <p><a href="https://billdelisle.com/"><strong>Bill DeLisle</strong></a> is a freelance strategic content creator and brand storyteller helping individuals and companies translate expertise into authoritative, high-impact content. He specializes in thought leadership, editorial strategy, and narrative development for executives, agencies, and brands across a range of industries, working as an extension of in-house and agency teams to deliver content that builds credibility and drives results.</p>
+  <p><a href="https://billdelisle.com/"><strong>Bill DeLisle</strong></a> is a freelance strategic content creator and brand storyteller helping people and companies translate expertise into authoritative, high-impact content. He specializes in thought leadership, editorial strategy, and narrative development for executives, agencies, and brands across a range of industries, working as an extension of in-house and agency teams to deliver content that builds credibility and drives results.</p>
 </div>
