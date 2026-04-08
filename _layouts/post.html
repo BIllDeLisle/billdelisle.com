@@ -14,7 +14,53 @@
   <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
   {% seo %}
+
+  <!-- Structured Data: BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    },
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.excerpt | strip_html | normalize_whitespace | truncate: 250 | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "url": "{{ page.url | absolute_url }}",
+    "wordCount": {{ content | strip_html | number_of_words }},
+    "author": {
+      "@type": "Person",
+      "name": "Bill DeLisle",
+      "url": "{{ site.url }}",
+      "jobTitle": "{{ site.tagline }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/apple-touch-icon.png",
+        "width": 180,
+        "height": 180
+      }
+    }{% if page.image %},
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ page.image | absolute_url }}"
+    }{% endif %}{% if page.category %},
+    "articleSection": {{ page.category | jsonify }}{% endif %}{% if page.tags and page.tags.size > 0 %},
+    "keywords": {{ page.tags | join: ", " | jsonify }}{% endif %}
+  }
+  </script>
 </head>
 <body>
   {% include nav.html %}
@@ -25,9 +71,132 @@
         <header class="blog-post-header">
           <h1>{{ page.title }}</h1>
           <div class="blog-post-meta">
-            {% if page.category %}<span class="blog-card-category">{{ page.category }}</span><span>•</span>{% endif %}
+            {% if page.category %}<span class="blog-card-category">{{ page.category }}</span><span>â¢</span>{% endif %}
             <span>{{ page.date | date: "%B %d, %Y" }}</span>
-            {% if page.read_time %}<span>•</span><span>{{ page.read_time }} min read</span>{% endif %}
+            {% if page.read_time %}<span>â¢</span><span>{{ page.read_time }} min read</span>{% endif %}
+          </div>
+        </header>
+
+        <div class="blog-post-content">
+          {{ content }}
+        </div>
+      </div>
+    </article>
+
+    {% include cta.html %}
+  </main>
+
+  {% include footer.html %}
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  {% seo %}
+
+  <!-- Structured Data: BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  {% seo %}
+
+  <!-- Structured Data: BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    },
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.excerpt | strip_html | normalize_whitespace | truncate: 250 | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "url": "{{ page.url | absolute_url }}",
+    "wordCount": {{ content | strip_html | number_of_words }},
+    "author": {
+      "@type": "Person",
+      "name": "Bill DeLisle",
+      "url": "{{ site.url }}",
+      "jobTitle": "{{ site.tagline }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/apple-touch-icon.png",
+        "width": 180,
+        "height": 180
+      }
+    }{% if page.image %},
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ page.image | absolute_url }}"
+    }{% endif %}{% if page.category %},
+    "articleSection": {{ page.category | jsonify }}{% endif %}{% if page.tags and page.tags.size > 0 %},
+    "keywords": {{ page.tags | join: ", " | jsonify }}{% endif %}
+  }
+  </script>
+</head>
+<body>
+  {% include nav.html %}
+
+  <main>
+    <article class="blog-post">
+      <div class="container">
+        <header class="blog-post-header">
+          <h1>{{ page.title }}</h1>
+          <div class="blog-post-meta">
+            {% if page.category %}<span class="blog-card-category">{{ page.category }}</span><span>â¢</span>{% endif %}
+            <span>{{ page.date | date: "%B %d, %Y" }}</span>
+            {% if page.read_time %}<span>â¢</span><span>{{ page.read_time }} min read</span>{% endif %}
           </div>
         </header>
 
