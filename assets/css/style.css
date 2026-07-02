@@ -11,9 +11,8 @@
   --color-text-light: #718096;
   --color-white: #ffffff;
 
-  --font-heading: 'Playfair Display', Georgia, serif;
-  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-
+  --font-heading: 'adobe-caslon-pro', Georgia, serif;
+    --font-body: 'adobe-caslon-pro', Georgia, serif;
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
   --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
