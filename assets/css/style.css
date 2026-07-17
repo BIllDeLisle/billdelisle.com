@@ -1,14 +1,14 @@
-/* Bill DeLisle - Deep Teal Theme */
+/* Bill DeLisle - Deep Harbor Theme */
 
 :root {
-  --color-bg: #f0efed;
-  --color-bg-alt: #e8e7e5;
-  --color-card: #e8e6e3;
-  --color-teal: #0d7377;
-  --color-teal-dark: #0a5c5f;
-  --color-teal-light: #e8f4f4;
-  --color-text: #2d3748;
-  --color-text-light: #718096;
+  --color-bg: #f5f8fa;
+  --color-bg-alt: #dce7ef;
+  --color-card: #ffffff;
+  --color-teal: #35678f;
+  --color-teal-dark: #274e6e;
+  --color-teal-light: #eaf1f7;
+  --color-text: #102a43;
+  --color-text-light: #5e7488;
   --color-white: #ffffff;
 
   --font-heading: 'adobe-caslon-pro', Georgia, serif;
@@ -245,7 +245,7 @@ img { max-width: 100%; height: auto; }
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ccc;
+  background: #c7d5df;
   border: none;
   cursor: pointer;
   transition: var(--transition);
@@ -287,13 +287,13 @@ img { max-width: 100%; height: auto; }
   box-shadow: var(--shadow-md);
 }
 
-/* Alternating colors - teal and cream at 50% opacity */
+/* Alternating colors - harbor blue and mist */
 .service-card:nth-child(odd) {
-  background: rgba(13, 115, 119, 0.15);
+  background: rgba(53, 103, 143, 0.15);
 }
 
 .service-card:nth-child(even) {
-  background: rgba(232, 230, 227, 0.7);
+  background: rgba(220, 231, 239, 0.7);
 }
 
 .service-card h3 {
@@ -651,7 +651,7 @@ img { max-width: 100%; height: auto; }
 
 /* Footer */
 .footer {
-  background: #1a1a2e;
+  background: #102a43;
   color: var(--color-white);
   padding: 60px 0 30px;
 }
@@ -772,7 +772,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .service-card-sm {
-  background: rgba(13, 115, 119, 0.08);
+  background: rgba(53, 103, 143, 0.08);
   border-radius: 12px;
   padding: 22px 24px;
   display: flex;
@@ -787,7 +787,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .service-card-sm.alt {
-  background: rgba(232, 230, 227, 0.7);
+  background: rgba(220, 231, 239, 0.7);
 }
 
 .sm-icon {
